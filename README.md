@@ -82,6 +82,9 @@ Rules Example 3,what actually worked for the example. from chat GPT
 
 Example what Data should look like after POST ![image](https://github.com/joshball26/Firebase/assets/77031830/3654777f-c6f7-45b2-a588-9a7b4aa967b1)
 
+## TroubleShooting 
+If you get error 5001 saying you need to add a .indexOn to your firebase rules. you may need to authenticate the email address you are using to login 
+- try testing your credentials in the rules playground tool on the WEB ![image](https://github.com/joshball26/Firebase/assets/77031830/a00da60a-71e2-4f44-97a1-f26b1fbf7556)
 
 For more rules examples go to:<br>
 https://medium.com/@juliomacr/10-firebase-realtime-database-rule-templates-d4894a118a98<br>
