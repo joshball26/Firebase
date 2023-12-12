@@ -80,7 +80,7 @@ Rules Example 3,what actually worked for the example. from chat GPT
 }
 ```
 
-Example whhat Data should look like after POST ![image](https://github.com/joshball26/Firebase/assets/77031830/3654777f-c6f7-45b2-a588-9a7b4aa967b1)
+Example what Data should look like after POST ![image](https://github.com/joshball26/Firebase/assets/77031830/3654777f-c6f7-45b2-a588-9a7b4aa967b1)
 
 
 For more rules examples go to:<br>
