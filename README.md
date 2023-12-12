@@ -80,7 +80,8 @@ Rules Example 3,what actually worked for the example. from chat GPT
 }
 ```
 
-Example what Data should look like after POST ![image](https://github.com/joshball26/Firebase/assets/77031830/3654777f-c6f7-45b2-a588-9a7b4aa967b1)
+Example what Data should look like after POST. Make sure your rules .indexOn arguement and endpoint match these fields. 
+![image](https://github.com/joshball26/Firebase/assets/77031830/3654777f-c6f7-45b2-a588-9a7b4aa967b1)
 
 ## TroubleShooting 
 If you get error 5001 saying you need to add a .indexOn to your firebase rules. you may need to authenticate the email address you are using to login 
