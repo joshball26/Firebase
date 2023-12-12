@@ -67,10 +67,22 @@ Rules Example 2, allow writting and reading from specific domain and filtering e
 ```
 After you instal the VIPM Package there is an example provided for you, just drag it into your Block diagram and test it after setup your Firebase Database.
 
-
-
+Rules Example 3,what actually worked for the example. from chat GPT
+```
+{
+  "rules": {
+    ".read": "auth != null", // only authenticated users can read
+    ".write": "auth != null", // only authenticated users can write
+    "log": {
+      ".indexOn": ["date"]
+    }
+  }
+}
+```
 
 [![Watch the Tutorial](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://youtu.be/vDQ-mFWDiUk)
+
+Example whhat Data should look like after POST ![image](https://github.com/joshball26/Firebase/assets/77031830/3654777f-c6f7-45b2-a588-9a7b4aa967b1)
 
 
 For more rules examples go to:<br>
